@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1BA4C1F79D95A48369FD0589 /* Pods-FFReformerKeysKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFReformerKeysKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-FFReformerKeysKit_Example/Pods-FFReformerKeysKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2386B515F69A994F9DA65513 /* Pods_FFReformerKeysKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFReformerKeysKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BA9E49C475C9DAA87CD5372 /* FFReformerKeysKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFReformerKeysKit.podspec; path = ../FFReformerKeysKit.podspec; sourceTree = "<group>"; };
+		4BA9E49C475C9DAA87CD5372 /* FFReformerKeysKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFReformerKeysKit.podspec; path = ../FFReformerKeysKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4FBEDA690CD2BA501EADEAEC /* Pods-FFReformerKeysKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFReformerKeysKit_Example.release.xcconfig"; path = "Target Support Files/Pods-FFReformerKeysKit_Example/Pods-FFReformerKeysKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FFReformerKeysKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFReformerKeysKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		8E130493C0CB3C2CA8DAD134 /* Pods-FFReformerKeysKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFReformerKeysKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FFReformerKeysKit_Tests/Pods-FFReformerKeysKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		95CF56F2BEDF6F6ACBCB3652 /* Pods-FFReformerKeysKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFReformerKeysKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-FFReformerKeysKit_Tests/Pods-FFReformerKeysKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D20E7EE19B2BE6F37BB25B4B /* Pods_FFReformerKeysKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFReformerKeysKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4F1FF3390958C7BD65D3974 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F4803D432A8712B286C860D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E4F1FF3390958C7BD65D3974 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F4803D432A8712B286C860D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				8E130493C0CB3C2CA8DAD134 /* Pods-FFReformerKeysKit_Tests.debug.xcconfig */,
 				95CF56F2BEDF6F6ACBCB3652 /* Pods-FFReformerKeysKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = stevenJiechen;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6XFMJ2CZ69;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -498,6 +500,7 @@
 			baseConfigurationReference = 1BA4C1F79D95A48369FD0589 /* Pods-FFReformerKeysKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6XFMJ2CZ69;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFReformerKeysKit/FFReformerKeysKit-Prefix.pch";
 				INFOPLIST_FILE = "FFReformerKeysKit/FFReformerKeysKit-Info.plist";
@@ -513,6 +516,7 @@
 			baseConfigurationReference = 4FBEDA690CD2BA501EADEAEC /* Pods-FFReformerKeysKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6XFMJ2CZ69;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFReformerKeysKit/FFReformerKeysKit-Prefix.pch";
 				INFOPLIST_FILE = "FFReformerKeysKit/FFReformerKeysKit-Info.plist";
